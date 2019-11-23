@@ -1,0 +1,112 @@
+
+ 
+
+
+
+#cabeca{
+	background: #9AD9C2;
+	color: #ffff;
+    /*height: 50px;*/
+  	text-align: center ;
+	font-family: Marvel-bold, sans-serif,;
+    font-size: 27px;
+    /*font-style:bold;*/
+    padding: 5px;
+}
+#cabeca a:link{
+    color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#cabeca a:visited{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#cabeca a:hover  {
+	color:#F29544;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+#cabeca a:active {
+	color: #F29544;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+
+#corpo a:link{
+    color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#corpo a:visited{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#corpo a:hover  {
+	color:#F29544;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+#corpo a:active {
+	color: #F29544;
+	background-color: transparent;
+	text-decoration: none;
+}
+#central{
+	margin-top: 20px ;
+	text-align: center;
+	font-size: 30px;
+	font-family: Marvel, sans-serif;;
+	color: #F29544 ;  
+	margin-top: 20px ;
+  	width: 100%;
+	border: 1px solid #F29544 ;
+	padding: 10px;
+}
+
+
+#central h1{
+	font-family: Vallato, sans-serif;
+	color: #9AD9C2;
+	font-size:65px;
+}
+
+#produtos {
+	margin-top: 20px ;
+	padding:0px;
+	
+  
+	
+}
+
+#produtos div {
+	margin: 0.5px;
+	border: 1px solid #F29544 ;
+	float: left;
+	margin: 1px;
+
+	
+  
+
+}
+#produtos img {
+	padding: 10px;
+	width: 200px;
+	height: 200px;
+
+}
+@media ( max-width: 700px){
+	#cabeca{
+		font-size: 23px;
+	}
+
+	#produtos img{
+	width: 100px;
+	height: 100px;
+	}
+}
